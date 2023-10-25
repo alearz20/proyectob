@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe2d1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fbe2d1;
+    text-align: center;
+    padding: 20px;
+    color: #a43766;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a43766;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff66a0;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #fbe2d1;
+    text-align: center;
+    padding: 10px;
+    color: #a43766;
+}
+
+/* Agregar estilos específicos para el contenido de la biblioteca virtual según tus necesidades */
+
+/* Estilos para la sección de Libros Destacados */
+.destacados {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.destacados h2 {
+    color: #a43766;
+}
+
+.libro {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.libro img {
+    max-width: 100%;
+}
+
+.libro h3 {
+    color: #a43766;
+}
+
+.libro p {
+    color: #555;
+}
+
+.libro button {
+    background-color: #a43766;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.libro button:hover {
+    background-color: #ff66a0;
+}
+
+/* Estilos para la sección de Catálogo Completo */
+.catalogo {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.catalogo h2 {
+    color: #a43766;
+}
+
+.lista-libros {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.lista-libros li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.lista-libros img {
+    max-width: 100%;
+}
+
+.lista-libros h3 {
+    color: #a43766;
+}
+
+.lista-libros p {
+    color: #555;
+}
+
+.lista-libros button {
+    background-color: #a43766;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lista-libros button:hover {
+    background-color: #ff66a0;
+}
+img{
+    height: 300px;
+}
